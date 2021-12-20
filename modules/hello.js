@@ -1,5 +1,5 @@
 export function hello() {
-  return 'hello from myModule';
+  return 'hello ';
 }
 export function world(){
   return 'world '
