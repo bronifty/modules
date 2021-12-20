@@ -5,7 +5,7 @@ let root = document.querySelector('#root');
 
 btnHello.addEventListener('click', () => {
   import('./modules/hello.js').then((myModule) => {
-    root.innerHTML = myModule.hello();
+    root.innerHTML = `${myModule.hello()} ${myModule.world()}`;
   });
   // root.innerHTML = hello();
 });
