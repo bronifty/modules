@@ -11,7 +11,7 @@ btnHello.addEventListener('click', () => {
   console.log('color', iptVal);
   import('./modules/hello.js').then((myModule) => {
     root.innerHTML = `${myModule.hello()} ${myModule.world()} color: ${
-      importColors.iptVal
+      importColors.blue
     } dynamic agg hello() world(): ${hello()} ${world()}`;
   });
   root2.innerHTML = importColors.iptVal;
