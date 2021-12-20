@@ -1,3 +1,3 @@
 export function hello() {
-  return 'hello from module';
+  return 'hello from myModule';
 }
